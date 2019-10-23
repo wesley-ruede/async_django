@@ -1,6 +1,6 @@
 An asynchronous Django server with a Celery worker and Redis as a broker.
 
-Installation:
+# Installation:
 
 To install this project it will require Python >= 3.7.3. Once installed you will need to install virtualenv via pip
 by using the commmand sudo -H pip install. Using the -H flag along with the sudo command will make sure virualenv is installed
@@ -14,7 +14,7 @@ and the virtualenv will no onger be active.
 For the rest of this installation it will be assumed that you have succesfully installed Python3 with virtualenv and it is 
 activated. If you are stuggling then please contact me at wesley.k.r1993@gmail.com and I'll help you get it working.
 
-Installing dependencies:
+# Installing dependencies:
 
 This can be tricky or easy. Fortunately it has been made easy with the requirements.txt file via pip freezre one directory 
 down. This file is in the async_django directory which has /async_django, /feedback, /templates, db.sqlite3, manage.py,
@@ -22,7 +22,7 @@ and requirements.txt. We will install the dependencies with a simple command pip
 used to indicate that pip should do this operation recursively. If all goes well you should see eleven packages and all their
 dependencies installed directly into the virtualenv (not system wide).
 
-Usage:
+# Usage:
 
 From this point forward we will be operating exclusively in this directory and only using the one file manage.py. To run the
 server it is a simple command python manage.py runserver and you are done. 
